@@ -6,4 +6,4 @@ import { config } from './app/app.config.server';
 const bootstrap = async (context: BootstrapContext) =>
   bootstrapApplication(AppComponent, config, context);
 
-export default bootstrap;
+export default bootstrap; // test 2
