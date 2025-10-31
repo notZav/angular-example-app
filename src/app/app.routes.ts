@@ -7,7 +7,7 @@ import { authenticationGuard } from '~core/guards/authentication.guard';
 
 export const appRoutes: Route[] = [
   {
-    path: ROOT_PATHS.home,
+    path: ROOT_PATHS.home,  // test path
     component: HomeComponent,
   },
   {

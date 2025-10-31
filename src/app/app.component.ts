@@ -32,7 +32,7 @@ export class AppComponent {
   private readonly titleService = inject(Title);
   private readonly headerService = inject(HeaderService);
   private readonly metaService = inject(Meta);
-
+  // test 1 
   readonly currentUrl = toSignal(
     this.router.events.pipe(
       filter((event): event is NavigationEnd => event instanceof NavigationEnd),
