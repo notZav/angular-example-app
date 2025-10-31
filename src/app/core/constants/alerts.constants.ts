@@ -9,4 +9,5 @@ export type Alert = {
   type: AlertType;
   hasCountdown?: boolean;
   duration?: number;
+  duration2?: number;
 };
