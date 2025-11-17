@@ -21,4 +21,5 @@ export const translations = {
   genericRegisterError: $localize`Register failed. This attempt wasn’t very effective, try again!`,
   pokemonNotFoundError: $localize`Pokémon not found. Double-check the name and try again!`,
   sessionExpired: $localize`No session. Please log in.`,
+  sessioneRenewed: $localize`Session renewd.`,
 };

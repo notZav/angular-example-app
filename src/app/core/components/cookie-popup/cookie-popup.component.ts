@@ -20,11 +20,12 @@ export class CookiePopupComponent {
   private readonly cookieConsentService = inject(CookieConsentService);
 
   readonly hasAccepted = signal<boolean>(this.cookieConsentService.getCookieState());
-
+  // test 6
   acceptCookies(): void {
     const cookieSaved = this.cookieConsentService.setCookieConsent(ConsentState.GRANTED);
     if (cookieSaved) {
       this.hasAccepted.set(true);
+      // esempio altra modifica
     }
   }
 }

@@ -9,5 +9,5 @@ import { NgTemplateOutlet } from '@angular/common';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CardComponent {
-  readonly href = input<string>('');
+  readonly href = input<string>('');  //test
 }
