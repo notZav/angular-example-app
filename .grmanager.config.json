@@ -1,0 +1,25 @@
+{
+    "baseBranch":  "develop",
+    "ignoredFiles":  [
+                         "package.json",
+                         "package-lock.json",
+                         "pom.xml"
+                     ],
+    "environments":  {
+                         "training":  "prod",
+                         "dev":  "develop"
+                     },
+    "version":  "1.0.0",
+    "features":  {
+                     "feature2":  {
+                                      "main":  "feature/feature2/main",
+                                      "training":  "feature/feature2/training",
+                                      "dev":  "feature/feature2/dev"
+                                  },
+                     "feature1":  {
+                                      "main":  "feature/feature1/main",
+                                      "training":  "feature/feature1/training",
+                                      "dev":  "feature/feature1/dev"
+                                  }
+                 }
+}
