@@ -25,6 +25,7 @@ export class CookiePopupComponent {
     const cookieSaved = this.cookieConsentService.setCookieConsent(ConsentState.GRANTED);
     if (cookieSaved) {
       this.hasAccepted.set(true);
+      // esempio altra modifica
     }
   }
 }
