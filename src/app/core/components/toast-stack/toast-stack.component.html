@@ -7,7 +7,7 @@
     [attr.countdown]="alert.hasCountdown ? 'rtl' : null"
     [attr.duration]="alert.duration?.toString() || null"
     [attr.variant]="alert.type"
-    [class]="'alert--' + alert.type"
+    [class]="'alert--' + alert.type test"
     [innerHtml]="alert.message"
     (sl-after-hide)="removeFromAlerts(alert)"
   />
