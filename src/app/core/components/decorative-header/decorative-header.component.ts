@@ -13,7 +13,7 @@ import { rxResource } from '@angular/core/rxjs-interop';
 export class DecorativeHeaderComponent {
   private readonly fileService = inject(FileService);
   private readonly domSanitizer = inject(DomSanitizer);
-
+//
   readonly svgUrl = input<string>('');
   readonly svgResource = rxResource({
     params: this.svgUrl,
